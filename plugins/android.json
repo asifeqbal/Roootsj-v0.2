@@ -27,6 +27,9 @@
         },
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
         }
     },
     "dependent_plugins": {

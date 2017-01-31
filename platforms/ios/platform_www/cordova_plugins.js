@@ -121,6 +121,22 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "id": "cordova-plugin-globalization.GlobalizationError",
+        "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
+        "pluginId": "cordova-plugin-globalization",
+        "clobbers": [
+            "window.GlobalizationError"
+        ]
+    },
+    {
+        "id": "cordova-plugin-globalization.globalization",
+        "file": "plugins/cordova-plugin-globalization/www/globalization.js",
+        "pluginId": "cordova-plugin-globalization",
+        "clobbers": [
+            "navigator.globalization"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -133,7 +149,8 @@ module.exports.metadata =
     "cordova-plugin-device-orientation": "1.0.5",
     "cordova-plugin-compat": "1.1.0",
     "cordova-plugin-geolocation": "2.4.1",
-    "cordova-plugin-camera": "2.3.1"
+    "cordova-plugin-camera": "2.3.1",
+    "cordova-plugin-globalization": "1.0.5"
 };
 // BOTTOM OF METADATA
 });

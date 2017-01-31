@@ -30,6 +30,9 @@
             "CAMERA_USAGE_DESCRIPTION": " ",
             "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
             "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
         }
     },
     "dependent_plugins": {
