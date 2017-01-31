@@ -39,7 +39,7 @@
     <preference name="android-installLocation" value="auto" />
 	
 	
-    <access origin="*" />	
+    <access origin="*" subdomains="true" />
 	
 	<access origin="http://*.facebook.com" />
 		
