@@ -39,9 +39,9 @@
     <preference name="android-installLocation" value="auto" />
 	
 	
-    <access origin="*" subdomains="true" />
+    <access origin="*" />	
 	
-	<access origin="http://*.facebook.com" />
+	<access origin="http://facebook.com/*" />
 		
 
      <feature name="org.apache.cordova.facebook.Connect">
@@ -84,5 +84,6 @@
     </platform>
 	
 	<allow-intent href="*" />
+	<allow-navigation href="http://facebook.com/*" />
 	<allow-navigation href="*" />
 </widget>
