@@ -55,12 +55,23 @@
 		document.getElementById('blanker').style.top = calcTop+'px';
 		document.getElementById('blanker').style.left = calcLeft+'px';
 		document.getElementById('offline-screen').style.height = document.body.clientHeight+'px';
+		
 		document.addEventListener("deviceready",onDeviceReady,false);
 		
 		function loaded(){
-				document.getElementById('blanker').style.display = 'none';	
-			//alert('loader');
+				document.getElementById('blanker').style.display = 'none';
 			}
+			var receiveMessage = function receiveMessage(e){
+				switch (e.data) {
+						case 'setBlanker':
+						document.getElementById('blanker').style.display = 'block';
+						break;
+						case 'removeBlanker':
+						document.getElementById('blanker').style.display = 'none'; 
+						break;
+					}
+			};			
+			window.addEventListener("message", receiveMessage, false);
 		
 		function getPosition() {
 
