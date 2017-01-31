@@ -17,6 +17,7 @@
 	<plugin name="cordova-plugin-globalization" spec="~1.0.5" />
 	<plugin name="cordova-plugin-geolocation" spec="~2.4.1" />
 	
+	<preference name="LoadUrlTimeoutValue" value="70000"/>
 	<preference name="DisallowOverscroll" value="true"/> 
 	<preference name="fullscreen" value="true" />
 	<preference name="SplashScreen" value="splash"/>
@@ -39,7 +40,10 @@
 	
 	
     <access origin="*" />
-	<access origin="facebook.com" />
+	<widget ...>
+		<access origin="facebook.com"></access>
+	</widget
+	
 
      <feature name="org.apache.cordova.facebook.Connect">
          <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
