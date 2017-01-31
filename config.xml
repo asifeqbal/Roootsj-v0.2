@@ -38,13 +38,11 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
 	
-	<widget...>
-    <access origin="*" />
-	</widget>
-	<widget...>
-		<access origin="facebook.com"></access>
-	</widget>
 	
+    <access origin="*" />	
+	
+	<access origin="http://*.facebook.com" />
+		
 
      <feature name="org.apache.cordova.facebook.Connect">
          <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
