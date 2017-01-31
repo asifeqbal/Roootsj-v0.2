@@ -38,7 +38,7 @@
 	
 	
     <access origin="*" />
-	<access origin="https://www.facebook.com" />
+	<access origin="https://m.facebook.com" />
 	
 	<icon src="icon.png" />
     <icon density="ldpi" platform="android" src="res/icon/android/icon-36-ldpi.png" />
