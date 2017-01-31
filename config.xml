@@ -42,7 +42,7 @@
     <access origin="*" />
 	<widget ...>
 		<access origin="facebook.com"></access>
-	</widget
+	</widget>
 	
 
      <feature name="org.apache.cordova.facebook.Connect">
