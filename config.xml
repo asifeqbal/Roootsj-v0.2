@@ -39,7 +39,7 @@
 	
 	
     <access origin="*" />
-	<access origin="https://www.facebook.com" />
+	<access origin="facebook.com" />
 
      <feature name="org.apache.cordova.facebook.Connect">
          <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
