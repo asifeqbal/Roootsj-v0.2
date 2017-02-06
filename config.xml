@@ -19,13 +19,13 @@
 	
 	<preference name="LoadUrlTimeoutValue" value="70000"/>
 	<preference name="DisallowOverscroll" value="true"/> 
-	<preference name="fullscreen" value="true" />
+	<preference name="fullscreen" value="false" />
 	<preference name="SplashScreen" value="splash"/>
 	<preference name = "SplashScreenDelay" value = "4000" />
 	<preference name="ShowSplashScreenSpinner" value="false" />
 	<preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="true" />
+    <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="true" />
