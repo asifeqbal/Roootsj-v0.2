@@ -39,6 +39,7 @@
     <preference name="android-installLocation" value="auto" />
 	<!-- iOS only preferences -->
 	<preference name="EnableViewportScale" value="true"/>
+	<preference name="OverrideUserAgent" value="Mozilla/5.0 My Browser" />
 	
 	
     <access origin="*" />	
