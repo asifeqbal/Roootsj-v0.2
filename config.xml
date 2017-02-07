@@ -24,8 +24,7 @@
 	<preference name = "SplashScreenDelay" value = "4000" />
 	<preference name="ShowSplashScreenSpinner" value="false" />
 	<preference name="orientation" value="portrait" />
-    <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="false" />
+    <preference name="target-device" value="universal" />   
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="true" />
@@ -39,7 +38,7 @@
     <preference name="android-installLocation" value="auto" />
 	<!-- iOS only preferences -->
 	<preference name="EnableViewportScale" value="true"/>
-	<preference name="OverrideUserAgent" value="Mozilla/5.0 My Browser" />
+	
 	
 	
     <access origin="*" />	
