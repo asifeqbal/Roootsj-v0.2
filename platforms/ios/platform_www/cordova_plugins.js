@@ -145,6 +145,14 @@ module.exports = [
         "clobbers": [
             "device"
         ]
+    },
+    {
+        "id": "cordova-plugin-fcm.FCMPlugin",
+        "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
+        "pluginId": "cordova-plugin-fcm",
+        "clobbers": [
+            "FCMPlugin"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -159,7 +167,8 @@ module.exports.metadata =
     "cordova-plugin-geolocation": "2.4.1",
     "cordova-plugin-camera": "2.3.1",
     "cordova-plugin-globalization": "1.0.5",
-    "cordova-plugin-device": "1.1.4"
+    "cordova-plugin-device": "1.1.4",
+    "cordova-plugin-fcm": "2.1.1"
 };
 // BOTTOM OF METADATA
 });

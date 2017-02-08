@@ -43,6 +43,10 @@
                         {
                             "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FCMPlugin\"><param name=\"ios-package\" value=\"FCMPlugin\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -68,6 +72,26 @@
                     "NSPhotoLibraryUsageDescription": [
                         {
                             "xml": "<string> </string>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*/Entitlements-Debug.plist": {
+                "parents": {
+                    "aps-environment": [
+                        {
+                            "xml": "<string>development</string>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*/Entitlements-Release.plist": {
+                "parents": {
+                    "aps-environment": [
+                        {
+                            "xml": "<string>production</string>",
                             "count": 1
                         }
                     ]
@@ -107,6 +131,9 @@
             "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
         },
         "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
+        },
+        "cordova-plugin-fcm": {
             "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
         }
     },
@@ -257,6 +284,14 @@
             "clobbers": [
                 "device"
             ]
+        },
+        {
+            "id": "cordova-plugin-fcm.FCMPlugin",
+            "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
+            "pluginId": "cordova-plugin-fcm",
+            "clobbers": [
+                "FCMPlugin"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -269,6 +304,7 @@
         "cordova-plugin-geolocation": "2.4.1",
         "cordova-plugin-camera": "2.3.1",
         "cordova-plugin-globalization": "1.0.5",
-        "cordova-plugin-device": "1.1.4"
+        "cordova-plugin-device": "1.1.4",
+        "cordova-plugin-fcm": "2.1.1"
     }
 }

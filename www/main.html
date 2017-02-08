@@ -19,15 +19,7 @@
 -->
 <html>
     <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
+       
 		<meta charset="utf-8" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -84,8 +76,8 @@
 			   var watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
 
 			   function onSuccess(position) {
-
-				 document.getElementById('container-frame').src ='http://projects.vrisini.com/speeltuin/index.php?lat='+ position.coords.latitude + '&lon=' + position.coords.longitude;
+					cordovaDevice();
+				 document.getElementById('container-frame').src ='http://projects.vrisini.com/speeltuin/index.php?lat='+ position.coords.latitude + '&lon=' + position.coords.longitude '&dId=' + deviceID + '&dType=' + devicePlatform;
 			   };
 
 			   function onError(error) {
@@ -93,19 +85,12 @@
 			   }
 			}
 			
-			function cordovaDevice() {
-						   alert("Cordova version: " + device.cordova + "\n" +
-								  "Device model: " + device.model + "\n" +
-								  "Device platform: " + device.platform + "\n" +
-								  "Device UUID: " + device.uuid + "\n" +
-								  "Device version: " + device.version);
-									}
 									
 		function onDeviceReady()
 		{
-			//alert('hi');
+			//alert('hi');			
 			getPosition();
-			cordovaDevice();
+			
 			// Blanker on change
 			document.addEventListener("online", doWhenOnline, false);
 				document.addEventListener("offline", doWhenOffline, false);
