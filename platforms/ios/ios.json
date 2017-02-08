@@ -39,6 +39,10 @@
                         {
                             "xml": "<feature name=\"Globalization\"><param name=\"ios-package\" value=\"CDVGlobalization\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -100,6 +104,9 @@
             "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
         },
         "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
+        },
+        "cordova-plugin-device": {
             "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
         }
     },
@@ -242,6 +249,14 @@
             "clobbers": [
                 "navigator.globalization"
             ]
+        },
+        {
+            "id": "cordova-plugin-device.device",
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -253,6 +268,7 @@
         "cordova-plugin-compat": "1.1.0",
         "cordova-plugin-geolocation": "2.4.1",
         "cordova-plugin-camera": "2.3.1",
-        "cordova-plugin-globalization": "1.0.5"
+        "cordova-plugin-globalization": "1.0.5",
+        "cordova-plugin-device": "1.1.4"
     }
 }

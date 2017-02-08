@@ -33,6 +33,9 @@
         },
         "cordova-plugin-globalization": {
             "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
         }
     },
     "dependent_plugins": {

@@ -119,6 +119,14 @@ module.exports = [
         "clobbers": [
             "navigator.globalization"
         ]
+    },
+    {
+        "id": "cordova-plugin-device.device",
+        "file": "plugins/cordova-plugin-device/www/device.js",
+        "pluginId": "cordova-plugin-device",
+        "clobbers": [
+            "device"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -132,7 +140,8 @@ module.exports.metadata =
     "cordova-plugin-compat": "1.1.0",
     "cordova-plugin-geolocation": "2.4.1",
     "cordova-plugin-camera": "2.3.1",
-    "cordova-plugin-globalization": "1.0.5"
+    "cordova-plugin-globalization": "1.0.5",
+    "cordova-plugin-device": "1.1.4"
 };
 // BOTTOM OF METADATA
 });

@@ -16,6 +16,7 @@
 	<plugin name="cordova-plugin-inappbrowser" spec="~1.6.1" browserOnly="true"/>
 	<plugin name="cordova-plugin-globalization" spec="~1.0.5" />
 	<plugin name="cordova-plugin-geolocation" spec="~2.4.1" />
+	<plugin name="cordova-plugin-device" spec="~1.1.4" />
 	
 	<preference name="LoadUrlTimeoutValue" value="70000"/>
 	<preference name="DisallowOverscroll" value="true"/> 
