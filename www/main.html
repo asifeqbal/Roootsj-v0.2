@@ -76,8 +76,8 @@
 			   var watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
 
 			   function onSuccess(position) {
-					cordovaDevice();
-				 document.getElementById('container-frame').src ='http://projects.vrisini.com/speeltuin/index.php?lat='+ position.coords.latitude + '&lon=' + position.coords.longitude ;
+					
+				 document.getElementById('container-frame').src ='http://projects.vrisini.com/speeltuin/index.php?lat='+ position.coords.latitude + '&lon=' + position.coords.longitude;
 			   };
 
 			   function onError(error) {
