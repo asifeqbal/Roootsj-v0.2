@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.robhaenenroootsj.Roootsj" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Roootsj</name>
+    <description>
+        A new Roootsj Cordova app.
+    </description>
+    <author email="robhaenen@roootsj.com" href="http://app.roootsj.com">
+        Roootsj Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="https://www.facebook.com/" />
+    <icon src="icon.png" />
+    <icon density="ldpi" platform="android" src="res/icon/android/icon-36-ldpi.png" />
+    <icon density="mdpi" platform="android" src="res/icon/android/icon-48-mdpi.png" />
+    <icon density="hdpi" platform="android" src="res/icon/android/icon-72-hdpi.png" />
+    <icon density="xhdpi" platform="android" src="res/icon/android/icon-96-xhdpi.png" />
+    <icon height="57" platform="ios" src="res/icon/ios/icon-57.png" width="57" />
+    <icon height="72" platform="ios" src="res/icon/ios/icon-72.png" width="72" />
+    <icon height="114" platform="ios" src="res/icon/ios/icon-57-2x.png" width="114" />
+    <icon height="144" platform="ios" src="res/icon/ios/icon-72-2x.png" width="144" />
+    <splash density="ldpi" platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
+    <splash density="mdpi" platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
+    <splash density="hdpi" platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
+    <splash density="xhdpi" platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
+    <splash height="480" platform="ios" src="res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <splash height="960" platform="ios" src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+    <splash height="1024" platform="ios" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
+    <splash height="1334" platform="ios" src="res/screen/ios/splash-750x1334.png" width="750" />
+    <splash height="2208" platform="ios" src="res/screen/ios/splash-1242x2208.png" width="1242" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <preference name="LoadUrlTimeoutValue" value="70000" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="fullscreen" value="false" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenDelay" value="4000" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="true" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+</widget>
