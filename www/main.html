@@ -95,7 +95,9 @@
 									
 		function onDeviceReady()
 		{
-			//alert('hi');			
+			alert('hi');
+			 document.addEventListener("resume", onResume, false);.
+			 alert('hi 1');
 			getPosition();
 			
 			// Blanker on change
@@ -116,6 +118,13 @@
 			function doWhenOffline(){				
 				document.getElementById('offline-screen').style.display = 'block';
 			}
+			
+			// Handle the resume event
+			//
+			function onResume() {
+			alert('resume');
+			}
+
 
 		</script>
 		
