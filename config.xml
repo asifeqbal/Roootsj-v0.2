@@ -19,6 +19,7 @@
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
 	
 	<preference name="LoadUrlTimeoutValue" value="70000"/>
+	<preference name="windows-target-version" value="10.0" />
 	<preference name="DisallowOverscroll" value="true"/> 
 	<preference name="fullscreen" value="false" />
 	<preference name="SplashScreen" value="splash"/>
